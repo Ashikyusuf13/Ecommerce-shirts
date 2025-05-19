@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections_shirts</title>
+   <link rel="icon" type="image/jpeg" href="../images/logo.jpeg">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="white.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+  #navbar-h1 a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d2d2d;
+    text-decoration: none;
+  }
+</style>
+
+<body>
+  <nav class="navbar">
+    <h1 class="font-poppins font-weight-400" id="navbar-h1">
+      <a href="../index.html">Ashik</a></h1>
+    <div class="navbar-links">
+      <p class="navbar-link"><a href="../index.html" class="font-poppins font-weight-300">Home</a></p>
+      <p class="navbar-link"><a href="../collection.html" class="font-poppins font-weight-300">collection</a></p>
+      <p class="navbar-link"><a href="../footer.html" class="font-poppins font-weight-300">contact</a></p>
+    </div>
+    <div id="navbar-bar">
+      <i id="navbar-button" class="fa-solid fa-bars" onclick="showbar()"></i>
+    </div>
+  </nav>
+  
+  <!-- Side Navbar -->
+  <div class="side-navbar" id="side-navbar-x">
+    <div onclick="closebar()">
+    <p style="text-align: right;">
+      <button id="side-navbar-button" class="fa-solid fa-x" style="padding: 10px;"></button>
+    </p>
+  </div>
+    <div class="side-navbar-links">
+      <p class="side-navbar-link"><a href="../index.html" class="font-poppins font-weight-300">Home</a></p>
+      <p class="side-navbar-link"><a href="../collection.html" class="font-poppins font-weight-300">collections</a></p>
+      <p class="side-navbar-link"><a href="../footer.html" class="font-poppins font-weight-300">contact</a></p>
+    </div>
+  </div>
+
+
+  <div class="shirt-container">
+
+    <img src="../images/white_shirt.jpg" alt="White Shirt" >
+    <div class="shirt-details">
+        <h2>White Shirt</h2>
+        <p>Price: $25.00</p>
+        <p>Description: A classic white shirt that goes with everything.</p>
+        <div class="shirt-actions" >
+            <button class="add-to-cart" >
+                <a href="../buyingprocess/cart.html" style="color: white; text-decoration: none;">Add to Cart</a>
+            </button>
+
+            <button class="buy-now" >
+                <a href="../buyingprocess/buying.html" style="color: white; text-decoration: none;">Buy Now</a>
+            </button>
+        </div>
+     </div>
+ </div>
+
+    <script src="../script.js"></script>

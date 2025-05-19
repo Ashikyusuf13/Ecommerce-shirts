@@ -1,0 +1,72 @@
+
+.shirt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shirt-container img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgb(0, 7, 14);
+    transition: transform 0.4s, box-shadow 0.5s;
+}
+
+@media (max-width: 600px) {
+    .shirt-container img {
+        width: 90vw;
+        height: auto;
+        max-width: 300px;
+    }
+}
+
+.shirt-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt-details h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.shirt-details p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart{
+    background-color: #f25b2d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.add-to-cart:hover{
+    background-color: #9f2905;
+    transform: scale(1.05);
+}
+
+.buy-now {
+    background-color: #48be2b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+}
+.buy-now:hover{
+    background-color: rgb(11, 116, 5);
+    transform: scale(1.05);
+}
